@@ -1,0 +1,734 @@
+body{
+            
+    /* color: white; */
+    margin: 0px;
+    padding: 0px;
+   /* background:  url("d.jpg");
+    background-repeat: no-repeat;
+    background-size: 1150px 520px;*/
+}
+header{
+    background-color: blue;
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+.left img{
+    width: 100px;
+    
+}
+
+.mid{
+    display: White;
+    width: 90%;
+    margin: 0px 0px;
+    height: 0%;
+    /* border: 2px solid white; */
+    
+
+}
+.navbar{
+    display: inline-block;
+    /* background-color: white; */
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+   
+}
+.navbar li a{
+   /* color: white;*/
+    color:  white;
+    
+    text-decoration: none;  
+    padding: 10px 5px;
+   /* background-color: blue;*/
+   
+}
+.navbar li a:hover, .navbar li a:active{
+    
+    text-decoration: underline;
+    color: bisque;
+    
+}
+.n li{
+    display: inline-block;
+}
+.n li a{
+    color: white;
+    text-decoration: none;  
+    padding: 20px 2px;
+}
+.n li a:hover{
+    text-decoration: underline;
+    color: bisque;
+}
+.background .im img{
+    height: 500px; 
+    width: 100%;
+    
+}
+.home .Title{
+    margin-top: -2%; 
+    text-align:center;
+    
+}
+h1{
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    color: blueviolet;
+    text-transform: uppercase;
+    text-align: center;
+}
+.home h3{
+    font-size: 2rem;
+    margin-top: -1%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+table{
+    margin-top: 1%;  
+    margin-left: 8%;
+    width: 85%;
+    height: 200px;
+    border-style: solid;
+    border-collapse: collapse
+}
+td{
+    font-size: 20px;
+    text-align: center;
+    border-style: solid;
+    border-collapse: collapse;
+}
+tr{
+    font-size: 30px;
+    padding: 15px
+}
+th{
+    color: #111;
+    border-style: solid;
+    border-color: #111;
+    border: spacing 1px;
+    border-collapse: collapse;
+}
+ .download{
+    margin-top: 1rem;
+    text-align: center;
+    padding:.4rem 1rem;
+    display: block;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding:.8rem 3rem;
+    background: crimson;
+    color:#fff;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+/* .Total{
+    display: flex;
+} */
+.Total img{
+    height: 300px;
+    width: 600px;
+    margin-left: 2%;
+    margin-top: 5%;
+    border-radius: 5%;
+
+}
+.Total h4{
+    font-size: 40px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.EDC{
+    background-color: wheat;
+    width: 1000px;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+}
+.link1{
+    display: inline-block;
+    margin-top: 2%;
+    background-color: crimson;
+    padding:.8rem 3rem;
+    margin-top: -10%;
+    
+}
+.link2{
+    display: inline-block;
+    margin-top: 2%;
+    background-color: crimson;
+    padding:.8rem 3rem;
+}
+.link3{
+    display: inline-block;
+    margin-top: 2%;
+    background-color: crimson;
+    padding:.8rem 3rem;
+}
+.EDC a{
+    color: #fff;
+    font-size: medium;
+}
+.DSD {
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.DSD a{
+    color: #fff;
+    font-size: medium;
+}
+.SS{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.SS a{
+    color: #fff;
+    font-size: medium;
+
+}
+.NT{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.NT a{
+    color: #fff;
+    font-size: medium;
+
+
+}
+.DSA{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.DSA a{
+    color: #fff;
+    font-size: medium;
+
+}
+.PS{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.PS a{
+    color: #fff;
+    font-size: medium;
+
+}
+.ancomm{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.ancomm a{
+    color: #fff;
+    font-size: medium;
+
+}
+.analogelectronics{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.analogelectronics a{
+    color: #fff;
+    font-size: medium;
+
+}
+.mp{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.mp a{
+    color: #fff;
+    font-size: medium;
+
+}
+.daa{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.daa a{
+    color: #fff;
+    font-size: medium;
+
+}
+.nmp{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.nmp a{
+    color: #fff;
+    font-size: medium;
+
+}
+.EM{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.EM a{
+    color: #fff;
+    font-size: medium;
+
+}
+.CA{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.CA a{
+    color: #fff;
+    font-size: medium;
+
+}
+.Digicomm{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.Digicomm a{
+    color: #fff;
+    font-size: medium;
+
+}
+.DSP{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.DSP a{
+    color: #fff;
+    font-size: medium;
+
+}
+.Nano{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.Nano a{
+    color: #fff;
+    font-size: medium;
+
+}
+.Power{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.Power a{
+    color: #fff;
+    font-size: medium;
+
+}
+.control{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.control a{
+    color: #fff;
+    font-size: medium;
+
+}
+.CN{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.CN a{
+    color: #fff;
+    font-size: medium;
+
+}
+.eco{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.eco a{
+    color: #fff;
+    font-size: medium;
+
+}
+.ITC{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.ITC a{
+    color: #fff;
+    font-size: medium;
+
+}
+.vlsi{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.vlsi a{
+    color: #fff;
+    font-size: medium;
+
+}
+.biomed{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.biomed a{
+    color: #fff;
+    font-size: medium;
+
+}
+.oop{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.oop a{
+    color: #fff;
+    font-size: medium;
+
+}
+.os{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.os a{
+    color: #fff;
+    font-size: medium;
+
+}
+.mc{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.mc a{
+    color: #fff;
+    font-size: medium;
+
+}
+.satcomm{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.satcomm a{
+    color: #fff;
+    font-size: medium;
+
+}
+.NN{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.NN a{
+    color: #fff;
+    font-size: medium;
+
+}
+.dip{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.dip a{
+    color: #fff;
+    font-size: medium;
+
+}
+.wsn{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.wsn a{
+    color: #fff;
+    font-size: medium;
+
+}
+.emb{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.emb a{
+    color: #fff;
+    font-size: medium;
+
+}
+.web{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.web a{
+    color: #fff;
+    font-size: medium;
+
+}
+.mix{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.mix a{
+    color: #fff;
+    font-size: medium;
+
+}
+.erc{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.erc a{
+    color: #fff;
+    font-size: medium;
+
+}
+.ind{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.ind a{
+    color: #fff;
+    font-size: medium;
+
+}
+.AI{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.AI a{
+    color: #fff;
+    font-size: medium;
+
+}
+.Cyber{
+    background-color: wheat;
+    margin-left: 5%;
+    text-align: center;
+    /* flex: 1; */
+    /* align-items: center; */
+    margin-top: 2%;
+    width: 1000px;
+
+}
+.Cyber a{
+    color: #fff;
+    font-size: medium;
+
+}
+
+
+
+.thanks{
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -1%;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
